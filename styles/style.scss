@@ -1,0 +1,46 @@
+@import "./variables";
+
+@import "./header";
+@import "./module";
+@import "./nav";
+@import "./mixin";
+@import "./modal";
+
+@import "./main.scss";
+
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(background-color);
+  }
+  
+  section{
+    display: flex;
+    gap: 20px;
+  }
+
+  .hide {
+    .create span,
+    .nav-middle span,
+    .nav-bottom span {
+      display: none;
+    }
+  
+    
+  }
+
+  .bi-star-fill{
+    color: rgb(193, 193, 30);
+  }
